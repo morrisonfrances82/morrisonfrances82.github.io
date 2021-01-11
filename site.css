@@ -1,0 +1,69 @@
+/* site.css */
+header {
+    background-color: rgb(153, 49, 153);
+    /* border: solid 1px black; */
+    text-align:center;
+    font-size:40px;
+}
+
+body {
+    font-family: Segoe UI, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color:whitesmoke;
+}
+div  {
+    padding: 5px;
+    margin-top: 5%; 
+    margin-bottom: 5%;
+ }  
+
+header nav {
+    float: right;
+    margin-right: 5px;
+    color: white;
+}
+
+header nav li {
+   display: inline;
+   font-size: 12px;
+   color: black
+}
+aside{
+    position:absolute;
+    left:50%;
+    top:17%;
+    margin-left:-202px;
+    font-family:'Raleway',sans-serif;
+    background-color: lightgrey;
+}
+#home{
+    background: url('./Images/HomeCoombeMartin.jpeg');
+    background-repeat: no-repeat;
+    /* background-size: auto;*/
+    background-position:center; 
+    width: 500px;
+    height: 700px;
+    object-fit: cover;    
+}
+#home li{
+    font-size: 24px; 
+    padding: 5px;
+}
+#loginForm{
+    position:absolute;
+    right:50%;
+    top:50%;
+    border:5px solid rgb(153, 49, 153);
+    margin-right:-202px;
+    font-family:'Raleway',sans-serif;    
+    padding: 10px;
+    /* background-color: lightgrey; */
+    /* border-top: indigo; */
+}
+#loginForm input{    
+    padding: 5px;
+}
+
+
+
+

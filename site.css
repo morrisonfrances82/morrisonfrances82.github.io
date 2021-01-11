@@ -37,7 +37,7 @@ aside{
     background-color: lightgrey;
 }
 #home{
-    background: url('./Images/HomeCoombeMartin.jpeg');
+    background: url('./Images/HomeCoombeMartin.JPEG');
     background-repeat: no-repeat;
     /* background-size: auto;*/
     background-position:center; 
